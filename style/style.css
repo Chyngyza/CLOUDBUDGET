@@ -420,3 +420,105 @@ button {
     right: 44px;
 
 }
+.contact {
+    padding: 117px 0 128px;
+    background: #FFFFFF;
+}
+.contact_desc {
+    margin-top: 60px;
+    width: 434px;
+}
+.contact_left {
+    padding-left: 7px;
+}
+.contact_right {
+    padding-left: 15px;
+}
+.contact_form .row {
+    margin: 0 -15px;
+}
+.contact_form .col-6 {
+    padding: 0 15px;
+}
+.contact_inp {
+    width: calc(100% - 31px);
+    border: 1px solid #333333;
+    border-radius: 6px;
+    padding-left: 31px;
+    height: 60px;
+    margin-bottom: 24px;
+}
+.contact_inp::placeholder {
+    color: rgba(19, 39, 67, 0.5);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.contact-select {
+    width: 100%;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    padding-left: 26px;
+    height: 60px;
+    color: rgba(19, 39, 67, 0.5);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    appearance: none;
+    background: url("../images/arrow.svg") no-repeat right;
+    background-position-x: calc(100% - 25px);
+}
+.contact_btn {
+    background: #ED4C5C;
+    border: 1px solid #ED4C5C;
+    margin-top: 27px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.footer {
+    background: #FAFAFA;
+    padding: 85px 0;
+}
+.footer .row {
+    margin: 0 -15px;
+}
+.footer .col-3 {
+    padding: 0 15px;
+}
+.footer_title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    margin-bottom: 33px;
+}
+.footer_desc {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+}
+.footer_content {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #101010;
+}
+.footer_nav {
+    margin-top: -5px;
+}
+.footer_link {
+    display: block;
+}
+.footer_phone {
+    margin: 11px 0 21px;
+}
+.footer_sm_link i{
+    margin-right: 13px;
+}
+.footer_payment {
+    padding-left: 7px;
+}
+.footer_copyright {
+    margin-top: 86px;
+}
